@@ -1,5 +1,5 @@
 import { openDB } from 'idb';
-
+import { header } from './header';
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
@@ -23,6 +23,7 @@ console.log('PUT to the database');
   console.log('🚀 - data saved to the database', result);
   return result
 }
+
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
 console.log('GET all from the database');
@@ -32,7 +33,7 @@ console.log('GET all from the database');
   const request = store.getAll();
   const result = await request;
   console.log('result.value', result);
-  return result;
+  return result?.content
 }
 
 initdb();
