@@ -26,7 +26,7 @@
   
 
   ## Installation
-   Clone the repository
+   Visit [the application](http://editxt.herokuapp.com) and click on the install button
 
 
   ## Usage
@@ -34,15 +34,15 @@
 
 
   ## Contributing
-   Reach out via the email below
+   If you'd like to contribute, reach out via the email below
 
 
   ## Guidelines
-   
+   Can be used on or offline.
 
 
   ## Tests
-   
+   Tests run in development.
 
 
   ## License
