@@ -4,6 +4,7 @@
   
   ## Table of Contents
   * [Description](#description)
+  * [Technologies](#technologies)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
@@ -17,6 +18,12 @@
   Editxt is a simple text editor that uses indexedDB to store and retrieve information. Compiled using node, it incorporates the use of webpacks to render the UI and service worker to allow communication between the DOM and server so the application is able to run offline and be installed to run on a local machine, similar to a native app - making it a progressive web application or 'PWA'.
 
   ![screenshot](./assets/images/screenshot.png)
+
+  ## Technologies
+  * React
+  * JavaScript
+  * node.js
+  
 
   ## Installation
    Clone the repository
